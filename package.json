@@ -1,0 +1,31 @@
+{
+  "name": "bookstor",
+  "version": "1.0.0",
+  "description": "learning project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "aws-sdk": "^2.701.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mariadb": "^2.3.1",
+    "multer": "^1.4.2",
+    "node-datetime": "^2.1.2",
+    "nodemon": "^2.0.1",
+    "sequelize": "^5.21.10",
+    "sequelize-cli": "^5.5.1",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {},
+  "author": "anas",
+  "license": "ISC"
+}
