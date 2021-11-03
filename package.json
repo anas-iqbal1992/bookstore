@@ -23,7 +23,7 @@
     "nodemon": "^2.0.1",
     "sequelize": "^5.21.10",
     "sequelize-cli": "^5.5.1",
-    "validator": "^13.0.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {},
   "author": "anas",
